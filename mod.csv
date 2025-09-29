@@ -372,3 +372,7 @@ xanim,german_shepherd_wakeup_fast
 // Aurora Flow Shader
 material,aurora_flow
 weapon,mp/aurora_deagle_mp
+
+// Logos
+material,dx_banner
+material,dx_logo

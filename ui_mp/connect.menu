@@ -24,7 +24,7 @@
 		focusColor		COLOR_FOCUSED
 		visible			MENU_FALSE		
 		backcolor		1 1 1 1
-		background		"server_logo"
+		background		"dx_banner"
 		rect			FULLSCREEN_WIDE
 		
 		//onOpen { CHECK_BAN1; CHECK_BAN2; CHECK_BAN3; }
