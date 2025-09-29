@@ -1,0 +1,73 @@
+#include "ui/menudef.h"
+
+#include "ui_mp/menustyle.inc"
+#include "ui/choices_setup_common.menu"
+
+#include "ui_mp/dx_common.inc"
+{
+	menuDef
+	{
+		name			"team_select"
+		rect			0 0 640 480
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_EMPTY
+		blurWorld		7.0
+		legacySplitScreenScale
+		
+		onOpen
+		{
+			execNow "set menuName Welcome";
+			//UPDATE_PERK1;
+		}
+
+		onClose
+		{
+		}
+
+		onEsc
+		{
+			close self;
+		}
+		
+		#include "ui_mp/dr_menu_frame.inc"
+		#include "ui_mp/briefing.inc"
+		#include "ui_mp/btn_positions.inc"
+
+		// Top row (staggered between mid columns)
+		#define BTN_PLAY_X        STAGGER_LR_X
+		#define BTN_PLAY_Y        ROW_TOP_Y
+		#define BTN_SPECTATE_X    STAGGER_CR_X
+		#define BTN_SPECTATE_Y    ROW_TOP_Y
+
+		// Middle row (true 3 columns)
+		#define BTN_HELP_X        COL_LEFT_X
+		#define BTN_HELP_Y        ROW_MID_Y
+		#define BTN_CHARACTER_X   COL_CENTER_X
+		#define BTN_CHARACTER_Y   ROW_MID_Y
+		#define BTN_OPTIONS_X     COL_RIGHT_X
+		#define BTN_OPTIONS_Y     ROW_MID_Y
+
+		// Bottom row (staggered like the top)
+		#define BTN_SETTINGS_X    STAGGER_LR_X
+		#define BTN_SETTINGS_Y    ROW_BOT_Y
+		#define BTN_LEAVE_X       STAGGER_CR_X
+		#define BTN_LEAVE_Y       ROW_BOT_Y
+
+		// Bottom Submenu
+		#define BTN_VIP_X         SUBMENU_CENTER_X
+		#define BTN_VIP_Y         SUBMENU_CENTER_Y
+
+		#define BTN_PRESTIGE_X 		SUBMENU_CENTER_X
+		#define BTN_PRESTIGE_Y		ROW_EXTRA_Y
+
+		DR_BUTTON( "play", 			BTN_PLAY_X, BTN_PLAY_Y, "Play",        				 scriptMenuResponse "autoassign";, 1 )
+		DR_BUTTON( "spectate", 	BTN_SPECTATE_X, BTN_SPECTATE_Y, "Spectate",    scriptMenuResponse "spectator";,   1 )
+		DR_BUTTON( "character", BTN_CHARACTER_X, BTN_CHARACTER_Y, "Customize", scriptMenuResponse "open_characters";, 1 )
+		DR_BUTTON( "help", 			BTN_HELP_X, BTN_HELP_Y, "Help",        				 close self; open dr_help;, 1 )
+		DR_BUTTON( "options", 	BTN_OPTIONS_X, BTN_OPTIONS_Y, "Options",     	 close self; open dr_options;, 1 )
+		DR_BUTTON( "settings", 	BTN_SETTINGS_X, BTN_SETTINGS_Y, "Settings",    close self; open dr_settings;, 1 )
+		DR_BUTTON( "leave", 		BTN_LEAVE_X, BTN_LEAVE_Y, "Leave", 						 open popup_endgame;, 1 )
+		DR_BUTTON( "prestige", 	BTN_PRESTIGE_X, BTN_PRESTIGE_Y, "Prestige", 	 scriptMenuResponse "prestige";, 1 )
+		DR_BUTTON( "vip", 			BTN_VIP_X, BTN_VIP_Y, "VIP Menu", 						 open popup_endgame;, 1 )
+	}
+}

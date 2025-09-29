@@ -1,0 +1,22 @@
+// * COD4-SHADERGEN - xoxor4d.github.io
+// * Template used : [shadergen_viewmodel_3d_projection.tech]
+// * Mat. Template : [shadergen_viewmodel_phong.template]
+
+// first one is stock and shades the weapon
+// the second one applies the custom shader by "adding" ( black -> white :: alpha 0 - 1 )
+
+{
+    stateMap "default";
+    
+    vertexShader 3.0 "aurora_flow"
+    {
+    }
+    
+    pixelShader 3.0 "aurora_flow"
+    {
+        colorMapSampler = material.colorMap;
+    }
+    
+    vertex.position = code.position;
+	vertex.texcoord[0] = code.texcoord[0];
+}

@@ -1,0 +1,364 @@
+
+Logfile opened on Sun Sep 28 14:05:29 2025
+
+sv_punkbuster is write protected.
+      dvar set sv_master3 cod2update.activision.com
+      dvar set sv_mapRotation map mp_deathrun_supermario map mp_deathrun_watchit_v3 map mp_deathrun_long
+      dvar set sv_mapRotationCurrent gametype deathrun map mp_deathrun_supermario
+execing deathrun.cfg from disk
+Unknown command "nick"
+Unknown command "permissions"
+Error: couldn't exec deathrun_songs.cfg
+Loading fastfile mp_shipment_load
+Loaded zone 'mp_shipment_load'
+      dvar set mapname mp_shipment
+      dvar set legacyProtocol 1
+------ Server Initialization ------
+Server: mp_shipment
+      dvar set sv_running 1
+Current language: english
+Current search path:
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\mods\deathrun_dev\dx_weapons.iwd (9 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\mods\deathrun_dev\dx_sounds.iwd (27 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\mods\deathrun_dev\dx_misc.iwd (1 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\mods\deathrun_dev\dx_images.iwd (175 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4/mods/deathrun_dev
+\fs_savepath\main\jcod4x_00.iwd (67 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_13.iwd (265 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_12.iwd (33 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_11.iwd (448 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_10.iwd (230 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_09.iwd (447 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_08.iwd (66 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_07.iwd (34 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_06.iwd (416 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_05.iwd (716 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_04.iwd (765 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_03.iwd (670 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_02.iwd (1296 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_01.iwd (1456 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\iw_00.iwd (1054 files)
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4/main
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4/main_shared
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4/players
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4/mods/deathrun_dev/english
+    localized assets game folder for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw06.iwd (7 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw05.iwd (1338 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw04.iwd (1730 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw03.iwd (3705 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw02.iwd (3483 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw01.iwd (3181 files)
+    localized assets iwd file for english
+C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4\main\localized_english_iw00.iwd (2903 files)
+    localized assets iwd file for english
+
+File Handles:
+handle 1: console_mp.log
+----------------------
+49044 files in iwd files
+----- R_Init -----
+DirectX reports 128 MB of video memory and 4002 MB of available texture memory.
+Using video memory size to cap used texture memory at 112 MB.
+Using previously reported texture memory size of 112 MB.
+Texture detail is set automatically.
+Using picmip 1 on most textures, 1 on normal maps, and 1 on specular maps
+Error: Could not load material "loadscreen_mp_dr_bananaphone".
+Error: Could not load material "loadscreen_mp_dr_bananaphone_v2".
+Error: Could not load material "loadscreen_mp_deathrun_darkness".
+Error: Could not load material "loadscreen_mp_deathrun_dungeon".
+Error: Could not load material "loadscreen_mp_deathrun_glass".
+Error: Could not load material "loadscreen_mp_deathrun_long".
+Error: Could not load material "loadscreen_mp_deathrun_grassy".
+Error: Could not load material "loadscreen_mp_deathrun_poison".
+Error: Could not load material "loadscreen_mp_deathrun_portal".
+Error: Could not load material "loadscreen_mp_deathrun_short_v4".
+Error: Could not load material "loadscreen_mp_deathrun_supermario".
+Error: Could not load material "loadscreen_mp_deathrun_takecare".
+Error: Could not load material "loadscreen_mp_deathrun_watchit".
+Error: Could not load material "loadscreen_mp_deathrun_watchit_v2".
+Error: Could not load material "loadscreen_mp_deathrun_watchit_v3".
+Error: Could not load material "loadscreen_mp_deathrun_portal_v3".
+Error: Could not load material "loadscreen_mp_deathrun_grassy_v4".
+Error: Could not load material "loadscreen_mp_deathrun_rainy_v2".
+Unloaded fastfile ui_mp
+Loading fastfile mp_shipment
+      dvar set nextmap map_restart
+Waited 206 msec for asset 'maps/mp/mp_shipment.d3dbsp' of type 'col_map_mp'.
+      dvar set sv_serverid 16
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+Loaded zone 'mp_shipment'
+-----------------------------------
+      dvar set g_fogColorReadOnly 0.643137 0.627451 0.501961 1
+      dvar set g_fogHalfDistReadOnly 2842
+      dvar set compassMaxRange 1400
+Error: Waited 1415 msec for missing asset "^2BraXi's ^1Death ^3Run ^71.2".
+Waited 6 msec for asset 'weap_fraggrenade_reload' of type 'sound'.
+Error: Missing soundalias "weap_fraggrenade_reload".
+Error: Missing soundalias "weap_fraggrenade_reload".
+      dvar set dr_playedmaps  mp_shipment;
+      dvar set jump_slowdownEnable 0
+      dvar set bullet_penetrationEnabled 0
+Error: Could not load xmodel "body_complete_mp_zakhaev".
+Error: Could not load xmodel "body_complete_mp_russian_farmer".
+Error: Could not load xmodel "body_complete_mp_velinda_desert".
+Error: Could not load xmodel "body_complete_mp_al_asad".
+      dvar set g_TeamName_Allies ^2Jumpers
+      dvar set g_TeamIcon_Allies killiconfalling
+      dvar set g_TeamColor_Allies 0 0.8 0 0
+      dvar set g_ScoresColor_Allies 0.101961 0.8 0.101961 0
+      dvar set g_TeamName_Axis ^1Activator
+      dvar set g_TeamIcon_Axis killiconsuicide
+      dvar set g_TeamColor_Axis 0.8 0 0 0
+      dvar set g_ScoresColor_Spectator 0.25098 0.25098 0.25098 0
+      dvar set g_ScoresColor_Free 0.760784 0.780392 0.101961 0
+      dvar set g_TeamColor_MyTeam 0.6 0.8 0.6 0
+      dvar set g_TeamColor_EnemyTeam 1 0.45098 0.501961 0
+      dvar set sv_iwds -1435004118 990547689 237212444 -929013369 94291723 2115322797 1043426064 -292863836 173489706 -1846635013 -1079795827 -1041447890 -715502781 489843315 499941093 309900900 -165391090 648005745 -1190209610 
+      dvar set sv_iwdNames dx_weapons dx_sounds dx_misc dx_images jcod4x_00 iw_13 iw_12 iw_11 iw_10 iw_09 iw_08 iw_07 iw_06 iw_05 iw_04 iw_03 iw_02 iw_01 iw_00
+      dvar set sv_referencedIwds -1190209610 499941093 648005745 -715502781 -165391090 309900900 2115322797 -929013369 489843315 1043426064 -292863836 -1435004118 990547689 237212444 -929013369 
+      dvar set sv_referencedIwdNames main/iw_00 main/iw_04 main/iw_01 main/iw_06 main/iw_02 main/iw_03 main/iw_13 mods/deathrun_dev/dx_images main/iw_05 main/iw_12 main/iw_11 mods/deathrun_dev/dx_weapons mods/deathrun_dev/dx_sounds mods/deathrun_dev/dx_misc mods/deathrun_dev/dx_images
+      dvar set sv_referencedFFCheckSums 89196 9685817 29040480 13517381 261
+      dvar set sv_referencedFFNames code_post_gfx_mp mods/deathrun_dev/mod mp_shipment common_mp mp_shipment_load
+-----------------------------------
+      dvar set sv_cheats 1
+Working directory: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty 4
+      dvar set cl_updateservers http://cod4update.cod4x.ovh/clupdate/
+      dvar set cl_filterlisturl http://filter.cod4x.ovh/filter/
+      dvar set cl_cod4xsitedom cod4x.ovh
+Connecting to: cod4update.cod4x.ovh:80
+Resolved cod4update.cod4x.ovh:80 to: 188.165.57.239:80
+Connecting player #0 has an unknown GUID
+Going from CS_FREE to CS_CONNECTED for  (num 0 guid "")
+Huffman Took 3 Milliseconds
+Received packet 0 of stats data
+Received packet 1 of stats data
+Received packet 2 of stats data
+Received packet 3 of stats data
+Received packet 4 of stats data
+Received packet 5 of stats data
+Received packet 6 of stats data
+      dvar set cl_updateavailable 1
+      dvar set cl_updatefiles http://cod4update.cod4x.ovh/clupdate/get.php?f=cod4update mVtWt2tt/t0kdb6MgBJD2IOuO7Z9tPkqzHrLlLs4RqM1VeSHlyy/W1WY0hI+KxGVZfkDNolUcLUjz3/YM1EcO8mW7xaVMHL99+ueAa/PF1/3CKisk0+/B7nFZn9CLoVgn/7CuhOwWs2yHoExG7Ka8rZ3vec+4bCLnBsA2UO3AhCG1Wl5+FMrmNcQVRzfbnP302kt0c7ikTRpWxiXAl5eGAn7YMQFy+mxHPlaxmnv/QBnyO5YuXuKSVndMsh2G4XZGjq1cMKqwJhCoPGTgvLpPNLNtfCEuPUOPSjVK0woF6BcKbfnWpkQe7ElNWGlm/urPXS0j0NP5krE1pLQ7NsYBg==
+      dvar set cl_updateversion 21.2
+      dvar set cl_updateoldversion 21.1
+Connecting to: filter.cod4x.ovh:80
+Resolved filter.cod4x.ovh:80 to: 188.165.57.239:80
+Setting state to CA_LOADING in CL_DownloadsComplete
+      dvar set cl_paused 1
+Setting state to CA_LOADING in CL_InitCGame
+Error: animtrees/multiplayer.atr must be in an IWD
+LOADING... collision map
+LOADING... graphics
+LOADING... maps/mp/mp_shipment.d3dbsp
+      dvar set r_lightTweakDiffuseFraction 0.2
+      dvar set r_lightTweakSunLight 1.3
+      dvar set r_lightTweakAmbientColor 0.8 0.901961 1 1
+      dvar set r_lightTweakSunColor 1 1 0.94902 1
+      dvar set r_lightTweakSunDiffuseColor 0.901961 1 0.74902 1
+      dvar set r_lightTweakSunDirection -43 51.5 0
+LOADING... game media
+LOADING...  - textures
+LOADING...  - models
+LOADING...  - items
+LOADING...  - inline models
+LOADING...  - server models
+Error: Could not load fx "fire/tire_fire_med".
+      dvar set bg_shock_screenBlurBlendTime 0.001
+      dvar set bg_shock_screenBlurBlendFadeTime 0.001
+      dvar set bg_shock_screenFlashWhiteFadeTime 0
+      dvar set bg_shock_screenFlashShotFadeTime 0
+      dvar set bg_shock_viewKickRadius 0
+      dvar set bg_shock_viewKickFadeTime 0.001
+      dvar set bg_shock_sound 0
+      dvar set bg_shock_soundLoopFadeTime 2
+      dvar set bg_shock_soundLoopEndDelay -1.5
+      dvar set bg_shock_soundModEndDelay -0.75
+      dvar set bg_shock_volume_autodog 0.9
+      dvar set bg_shock_volume_vehicle 0.1
+      dvar set bg_shock_volume_vehiclelimited 0.1
+      dvar set bg_shock_volume_menu 1
+      dvar set bg_shock_volume_body 0.2
+      dvar set bg_shock_volume_body2d 0.2
+      dvar set bg_shock_volume_reload 0.2
+      dvar set bg_shock_volume_reload2d 0.2
+      dvar set bg_shock_volume_item 0.2
+      dvar set bg_shock_volume_voice 0.2
+      dvar set bg_shock_volume_local 0.2
+      dvar set bg_shock_volume_local2 0.2
+      dvar set bg_shock_volume_ambient 0.2
+      dvar set bg_shock_volume_hurt 0.4
+      dvar set bg_shock_volume_player1 0.4
+      dvar set bg_shock_volume_player2 0.4
+      dvar set bg_shock_volume_mission 0.9
+      dvar set bg_shock_volume_announcer 0.9
+      dvar set bg_shock_volume_shellshock 1
+      dvar set bg_shock_lookControl 0
+      dvar set bg_shock_lookControl_maxpitchspeed 0
+      dvar set bg_shock_lookControl_maxyawspeed 0
+      dvar set bg_shock_lookControl_mousesensitivityscale 0
+      dvar set bg_shock_lookControl_fadeTime 0.001
+LOADING...  - game media done
+LOADING... clients
+Error: Could not load menufile "ui_mp/scriptmenus/dr_characters.menu".
+Error: Could not load menufile "ui_mp/scriptmenus/dr_sprays.menu".
+Error: Could not load menufile "ui_mp/scriptmenus/dr_weapons.menu".
+Error: Could not load menufile "ui_mp/scriptmenus/dr_abilities.menu".
+CL_InitCGame:  0.15 seconds
+Com_TouchMemory: 0 msec. Using sum: -507182426
+Hiding channel: gamenotify
+Hiding channel: obituary
+Adding channel: gamenotify
+Adding channel: obituary
+Hiding channel: boldgame
+Adding channel: boldgame
+Hiding channel: subtitle
+Adding channel: subtitle
+No channels added or hidden
+NET_EnableQoSForHost: No IPv4 socket or remote host.
+      dvar set cl_paused 0
+Playing smoke grenades at time 1450
+      dvar set cg_thirdPersonRange 80
+      dvar set ui_hud_hardcore 1
+      dvar set cl_ingame 1
+      dvar set menuName Customize Character
+Error: Could not load material "body_mp_sas_urban_sniper".
+Error: Could not load stringtable "SPRAY_TABLE".
+Error: Could not load material "deserteagle".
+Error: Could not load stringtable "ABILITY_TABLE".
+      dvar set menuName Weapons
+      dvar set drui_weapon 4
+      dvar set drui_weapon 5
+      dvar set drui_weapon 4
+      dvar set drui_weapon 3
+      dvar set show_hud false
+      dvar set sv_serverid 17
+==== ShutdownGame (0) ====
+------- Game Initialization -------
+gamename: Call of Duty 4
+gamedate: Jun 18 2008
+-----------------------------------
+Playing smoke grenades at time 617750
+      dvar set show_hud true
+Steam: Got SteamServersDisconnected_t
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+SteamServerConnectFailure_t: 3
+      dvar set menuName Welcome
+      dvar set menuName Customize Character
+      dvar set menuName Welcome
+
+******* script runtime error *******
+undefined is not an entity: (file 'hype/_customization.gsc', line 76)
+    self.previewModel delete();
+         *
+Error: started from:
+(file 'hype/_customization.gsc', line 74)
+    self waittill("death");
+         *
+Error: ************************************
+      dvar set menuName Customize Character
+      dvar set menuName Abilities
+      dvar set menuName Customize Character
+      dvar set menuName Weapons
+
+******* script runtime error *******
+removed entity is not an entity: (file 'hype/_customization.gsc', line 204)
+    self.previewModel delete();
+         *
+Error: called from:
+(file 'braxi/_menus.gsc', line 219)
+   self hype\_customization::onresponse("weapons", response);
+        *
+Error: started from:
+(file 'braxi/_menus.gsc', line 82)
+  self waittill("menuresponse", menu, response);
+       *
+Error: ************************************
+      dvar set menuName Welcome
+quitting...
+----- CL_Shutdown -----
+Successfully wrote stats data
+Error: Sub_57B5C0: Failed to get line info!
+-----------------------
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+Unregister callback 0
+----- Server Shutdown -----
+==== ShutdownGame (1) ====
+0:hype EXE_DISCONNECTED
+      dvar set sv_running 0
+---------------------------
+Unloaded fastfile mp_shipment
+Unloaded fastfile mp_shipment_load
+Unloaded fastfile localized_common_mp
+Unloaded fastfile common_mp
+Unloaded fastfile mod
+Unloaded fastfile localized_code_post_gfx_mp
+Unloaded fastfile code_post_gfx_mp
