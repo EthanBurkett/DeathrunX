@@ -9,111 +9,170 @@
 ////|__________|//|__|///|__|//|__|/|__|//__/////\__\//|__|////
 ///////////////////////////////////////////////////////////////
 //
-//	BraXi's Death Run Mod
-//	(c) 2010-2020 Paulina Sokołowska
+//	DeathRunX Rank Progression
+//	(c) 2025 Spire Interactive
 //
-//	https://www.moddb.com/mods/braxs-death-run-mod
+//	https://deathrunx.gg
 //
-//	Twitter: https://twitter.com/TheBraXi
-//	GitHub: https://github.com/BraXi/
+//	Discord: https://discord.gg/deathrunx
+//	Twitter/X: @DeathRunX
+//	GitHub: github.com/deathrunx
 //
-//	E-mail: paulinabraxi somewhere at gmail.com
+//	Color Legend: ^5 = cyan | ^7 = white
+//
 
 VERSION             "1"
-CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
-FILENOTES           ""
-
+CONFIG              "C:\deathrunx\rank\StringEd.cfg"
+FILENOTES           "Rank system rewrite by Hype"
 
 REFERENCE           0
-LANG_ENGLISH        "Newbie"
+LANG_ENGLISH        "^7Initiate"
 
 REFERENCE           1
-LANG_ENGLISH        "Low"
+LANG_ENGLISH        "^7Recruit"
 
 REFERENCE           2
-LANG_ENGLISH        "Noob"
+LANG_ENGLISH        "^7Rookie"
 
 REFERENCE           3
-LANG_ENGLISH        "Little less Noob"
+LANG_ENGLISH        "^5Trainee"
 
 REFERENCE           4
-LANG_ENGLISH        "Novice"
+LANG_ENGLISH        "^5Runner"
 
 REFERENCE           5
-LANG_ENGLISH        "Lucker"
+LANG_ENGLISH        "^5Pathfinder"
 
 REFERENCE           6
-LANG_ENGLISH        "Lucky Lucker"
+LANG_ENGLISH        "^7Seeker"
 
 REFERENCE           7
-LANG_ENGLISH        "Mod Fan"
+LANG_ENGLISH        "^5Adept"
 
 REFERENCE           8
-LANG_ENGLISH        "Getting Better"
+LANG_ENGLISH        "^5Vigilant"
 
 REFERENCE           9
-LANG_ENGLISH        "Regular"
+LANG_ENGLISH        "^5Sprinter"
 
 REFERENCE           10
-LANG_ENGLISH        "Average"
+LANG_ENGLISH        "^7Evader"
 
 REFERENCE           11
-LANG_ENGLISH        "Skilled"
+LANG_ENGLISH        "^7Quickfoot"
 
 REFERENCE           12
-LANG_ENGLISH        "Little More Skilled"
+LANG_ENGLISH        "^5Slipstream"
 
 REFERENCE           13
-LANG_ENGLISH        "I'm Okey"
+LANG_ENGLISH        "^5Challenger"
 
 REFERENCE           14
-LANG_ENGLISH        "Experienced"
+LANG_ENGLISH        "^7Breaker"
 
 REFERENCE           15
-LANG_ENGLISH        "Little More Experienced"
+LANG_ENGLISH        "^5Phantom"
 
 REFERENCE           16
-LANG_ENGLISH        "Hunter"
+LANG_ENGLISH        "^5Operator"
 
 REFERENCE           17
-LANG_ENGLISH        "Amazing"
+LANG_ENGLISH        "^7Elusive"
 
 REFERENCE           18
-LANG_ENGLISH        "Pro"
+LANG_ENGLISH        "^5Vanguard"
 
 REFERENCE           19
-LANG_ENGLISH        "Ninja"
+LANG_ENGLISH        "^5Assailant"
 
 REFERENCE           20
-LANG_ENGLISH        "Not highest level anymore"
+LANG_ENGLISH        "^5Catalyst"
 
 REFERENCE           21
-LANG_ENGLISH        "Make me highest level, pleaseeee"
+LANG_ENGLISH        "^7Tactician"
 
 REFERENCE           22
-LANG_ENGLISH        "Are I'm The Best?"
+LANG_ENGLISH        "^5Executor"
 
 REFERENCE           23
-LANG_ENGLISH        "Need Soo Much EXP"
+LANG_ENGLISH        "^5Velocity"
 
 REFERENCE           24
-LANG_ENGLISH        "Hate The Noobs"
+LANG_ENGLISH        "^7Dominant"
 
 REFERENCE           25
-LANG_ENGLISH        "Me Gusta Death Run"
+LANG_ENGLISH        "^5Apex"
 
 REFERENCE           26
-LANG_ENGLISH        "Look At My Level"
+LANG_ENGLISH        "^5Specter"
 
 REFERENCE           27
-LANG_ENGLISH        "LoOoOoOoL"
+LANG_ENGLISH        "^5Specialist"
 
 REFERENCE           28
-LANG_ENGLISH        "Fuck Yeah"
+LANG_ENGLISH        "^7Elite"
 
 REFERENCE           29
-LANG_ENGLISH        "^3Like A Sir^7"
+LANG_ENGLISH        "^5Overdrive"
+
+REFERENCE           30
+LANG_ENGLISH        "^5Architect"
+
+REFERENCE           31
+LANG_ENGLISH        "^5Anomaly"
+
+REFERENCE           32
+LANG_ENGLISH        "^7Warden"
+
+REFERENCE           33
+LANG_ENGLISH        "^5Predator"
+
+REFERENCE           34
+LANG_ENGLISH        "^5Reaper"
+
+REFERENCE           35
+LANG_ENGLISH        "^7Nemesis"
+
+REFERENCE           36
+LANG_ENGLISH        "^5Immortal"
+
+REFERENCE           37
+LANG_ENGLISH        "^5Prime"
+
+REFERENCE           38
+LANG_ENGLISH        "^7Legend"
+
+REFERENCE           39
+LANG_ENGLISH        "^5Supreme"
+
+REFERENCE           40
+LANG_ENGLISH        "^5Mythic"
+
+REFERENCE           41
+LANG_ENGLISH        "^5Godspeed"
+
+REFERENCE           42
+LANG_ENGLISH        "^7DeathRunner"
+
+REFERENCE           43
+LANG_ENGLISH        "^5Warlord"
+
+REFERENCE           44
+LANG_ENGLISH        "^5Dominus"
+
+REFERENCE           45
+LANG_ENGLISH        "^5Paragon"
+
+REFERENCE           46
+LANG_ENGLISH        "^5Eternal"
+
+REFERENCE           47
+LANG_ENGLISH        "^5Ascendant"
+
+REFERENCE           48
+LANG_ENGLISH        "^7Transcendent"
+
+REFERENCE           49
+LANG_ENGLISH        "^5Ω - Final Tier"
 
 ENDMARKER
-
-

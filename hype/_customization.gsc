@@ -58,11 +58,6 @@ destruct() {
       self.previewModel delete();
     }
 
-    // if(isDefined(self.previewHud))
-    // {
-    //   self.previewHud delete();
-    // }
-
     self.pers["inCustomization"] = false;
     self.pers["customize_weapon"] = undefined;
     self.pers["customize_character"] = undefined;
@@ -79,61 +74,10 @@ deathCheck() {
   }
 }
 
-// makePreviewHud()
-// {
-//     self endon("disconnect");
-//     self endon("end customization");
-
-//     hud = self createFontString( "objective", 1.4 );
-//     hud setPoint( "BOTTOMCENTER", "BOTTOMCENTER", 0, -64 );
-//     hud.foreground = true;
-//     hud.alpha = 1;
-//     hud.label = "";
-
-//     self.previewHud = hud;
-
-//     for (;;)
-//     {
-//         wait 0.05; // refresh smoothly
-
-//         if (!isDefined(self.pers["inCustomization"]) || !self.pers["inCustomization"])
-//         {
-//             hud setText("");
-//             continue;
-//         }
-
-//         table = self.pers["customize_table"];
-
-//         // Figure out which table we’re in
-//         if (table == "weapons")
-//         {
-//             idx = self.pers["customize_weapon"];
-//             name = getWeaponName(idx);
-
-//             if (!(self braxi\_rank::isItemUnlocked(idx)))
-//                 hud setText(name + " ^1(Unlocked at level " + (level.itemInfo[idx]["rank"]+1) + ")");
-//             else
-//                 hud setText(name);
-//         }
-//         else if (table == "characters")
-//         {
-//             idx = self.pers["customize_character"];
-//             name = getModelName(idx);
-
-//             if (!(self braxi\_rank::isCharacterUnlocked(idx)))
-//                 hud setText(name + " ^1(Unlocked at level " + (level.characterInfo[idx]["rank"]+1) + ")");
-//             else
-//                 hud setText(name);
-//         }
-//     }
-// }
-
-
 onresponse(table, response)
 {
   self thread deathCheck();
   self thread destruct();
-  // self thread makePreviewHud();
   isSpectator = false;
   if(self.pers["team"] == "spectator") {
     isSpectator = true;

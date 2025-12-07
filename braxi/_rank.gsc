@@ -169,7 +169,7 @@ punishHacker( player, what )
 	iPrintlnBold( "^1" + player.name + " ^1tried to hack his "+ what + " :<" );
 
 	self resetEverything();
-	updateRankStats( player, 0 );
+	updateRankStats( player, 0, 0 );
 	player updateAntiHackValues();
 
 	player setClientDvars( "ui_dr_info", "^1It appears you tried to modify your profile.", "ui_dr_info2", "^1Your rank was reseted." );
@@ -334,7 +334,7 @@ onPlayerConnect()
 		assertex( isdefined(player.cur_rankNum), "rank: "+ rankId + " does not have an index, check mp/ranktable.csv" );
 		player setStat( 251, player.cur_rankNum );
 		
-		prestige = 0;
+		prestige = player getPrestigeLevel();
 		player setRank( rankId, prestige );
 		player.pers["prestige"] = prestige;
 
@@ -550,6 +550,7 @@ updateRank( rankId )
 		rankId = self getRankForXp( self getRankXP() );
 		self setRank( rankId, 0 );
 		self.pers["rank"] = rankId;
+		self.pers["prestige"] = self getPrestigeLevel();
 		self updateRankAnnounceHUD();
 		// comming in 1.1
 		// ps. already in 1.2 but a bit diferent :D
@@ -557,22 +558,28 @@ updateRank( rankId )
 		//if ( isDefined( unlockedChallenge ) && unlockedChallenge != "" )
 		//	self braxi\_missions::unlockChallenge( unlockedChallenge );
 	}
-	updateRankStats( self, rankId );
+	updateRankStats( self, rankId, self getPrestigeLevel() );
 }
 
 
 
-updateRankStats( player, rankId )
+updateRankStats( player, rankId, prestige )
 {
 	player maps\mp\gametypes\_persistence::statSet( "rank", rankId );
 	player maps\mp\gametypes\_persistence::statSet( "minxp", getRankInfoMinXp( rankId ) );
 	player maps\mp\gametypes\_persistence::statSet( "maxxp", getRankInfoMaxXp( rankId ) );
+	player maps\mp\gametypes\_persistence::statSet( "plevel", prestige );
 	//player maps\mp\gametypes\_persistence::statSet( "lastxp", player.pers["rankxp"] );
 	
 	if( rankId > level.maxRank )
 		player setStat( 252, level.maxRank );
 	else
 		player setStat( 252, rankId );
+
+	if(prestige > level.maxPrestige)
+		player setStat( 2326, level.maxPrestige );
+	else
+		player setStat( 2326, prestige );
 }
 
 

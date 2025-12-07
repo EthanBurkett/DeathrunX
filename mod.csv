@@ -137,6 +137,36 @@ material,rank_26
 material,rank_27
 material,rank_28
 material,rank_29
+material,rank_30
+material,rank_31
+material,rank_32
+material,rank_33
+material,rank_34
+material,rank_35
+material,rank_36
+material,rank_37
+material,rank_38
+material,rank_39
+material,rank_40
+material,rank_41
+material,rank_42
+material,rank_43
+material,rank_44
+material,rank_45
+material,rank_46
+material,rank_47
+material,rank_48
+material,rank_49
+material,prestige_1
+material,prestige_2
+material,prestige_3
+material,prestige_4
+material,prestige_5
+material,prestige_6
+material,prestige_7
+material,prestige_8
+material,prestige_9
+material,prestige_10
 material,icon_risingstar
 
 material,uidr_header
@@ -254,6 +284,8 @@ menufile,ui_mp/connect.menu
 menufile,ui/bg.inc
 menufile,ui_mp/hud.menu
 menufile,ui_mp/main.menu
+menufile,ui_mp/playerlist.inc
+menufile,ui_mp/player_info.inc
 menufile,ui_mp/wm_quickmessage.menu
 menufile,ui_mp/scriptmenus/dr_admin.menu
 menufile,ui_mp/scriptmenus/quickstuff.menu
@@ -376,3 +408,4 @@ weapon,mp/aurora_deagle_mp
 // Logos
 material,dx_banner
 material,dx_logo
+image,dx_logo
